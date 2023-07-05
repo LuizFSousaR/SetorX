@@ -1,4 +1,9 @@
 @media only screen and (max-width: 768px) {
+    .div-size {
+        height: 300px;
+        padding-top: 40px;
+    }
+
     #textHome {
         font-size: 4em;
     }
@@ -17,7 +22,7 @@
     }
       
     .grid-item {
-        max-width: 94%;
+        max-width: 86%;
         min-height: 100px;
     }
 

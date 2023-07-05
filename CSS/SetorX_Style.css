@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     position: relative; 
 }
@@ -221,6 +225,11 @@ body {
     background-attachment: fixed;
 }
 
+.div-size {
+    height: 500px;
+    padding-top: 200px;
+}
+
 /* Equipe */
 .carousel-indicators [data-bs-target] {
     background-color: #21b4b1!important;
@@ -366,9 +375,9 @@ body {
 /* Grid system */
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     gap: 20px;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 33% 33% 33%;
 }
   
 .grid-item {
@@ -394,17 +403,10 @@ body {
 }
 
 #item3 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-#item4 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 .txtSobre {
