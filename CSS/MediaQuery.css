@@ -39,6 +39,16 @@
         font-size: 1em;
     }
 
+    .div-size {
+        width: 100%;
+        /* display: block; */
+    }
+
+    .img-servico {
+        width: 100%;
+        height: auto;
+    }
+
     #footerLinks {
         justify-content: start;
         flex-direction: column;
