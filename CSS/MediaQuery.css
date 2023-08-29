@@ -1,4 +1,9 @@
 @media only screen and (max-width: 768px) {
+    .navbar-brand {
+        width: 140px;
+        height: auto;
+    }
+
     .div-size {
         height: 300px;
         padding-top: 40px;
@@ -47,6 +52,10 @@
     .img-servico {
         width: 100%;
         height: auto;
+    }
+
+    .flex-size {
+        width: 100%;
     }
 
     #footerLinks {
